@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5901F0281683DDC900C38B73 /* Numeros.m in Sources */ = {isa = PBXBuildFile; fileRef = 5901F0271683DDC900C38B73 /* Numeros.m */; };
 		59BFE52116827C58009511F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BFE52016827C58009511F7 /* UIKit.framework */; };
 		59BFE52316827C58009511F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BFE52216827C58009511F7 /* Foundation.framework */; };
 		59BFE52516827C58009511F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BFE52416827C58009511F7 /* CoreGraphics.framework */; };
@@ -18,16 +19,28 @@
 		59BFE53716827C58009511F7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59BFE53616827C58009511F7 /* Default@2x.png */; };
 		59BFE53916827C58009511F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59BFE53816827C58009511F7 /* Default-568h@2x.png */; };
 		59BFE53C16827C58009511F7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BFE53A16827C58009511F7 /* MainStoryboard_iPhone.storyboard */; };
-		59BFE53F16827C58009511F7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BFE53D16827C58009511F7 /* MainStoryboard_iPad.storyboard */; };
 		59BFE54216827C58009511F7 /* El_Gordo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE54016827C58009511F7 /* El_Gordo.xcdatamodeld */; };
 		59BFE54516827C58009511F7 /* ZNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE54416827C58009511F7 /* ZNMainViewController.m */; };
-		59BFE54816827C58009511F7 /* ZNFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE54716827C58009511F7 /* ZNFlipsideViewController.m */; };
 		59BFE55016827C58009511F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BFE54F16827C58009511F7 /* SenTestingKit.framework */; };
 		59BFE55116827C58009511F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BFE52016827C58009511F7 /* UIKit.framework */; };
 		59BFE55216827C58009511F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BFE52216827C58009511F7 /* Foundation.framework */; };
 		59BFE55316827C58009511F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BFE52616827C58009511F7 /* CoreData.framework */; };
 		59BFE55B16827C58009511F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59BFE55916827C58009511F7 /* InfoPlist.strings */; };
 		59BFE55E16827C58009511F7 /* El_GordoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE55D16827C58009511F7 /* El_GordoTests.m */; };
+		59BFE57B168282C4009511F7 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE569168282C4009511F7 /* AFHTTPClient.m */; };
+		59BFE57C168282C4009511F7 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE56B168282C4009511F7 /* AFHTTPRequestOperation.m */; };
+		59BFE57D168282C4009511F7 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE56D168282C4009511F7 /* AFImageRequestOperation.m */; };
+		59BFE57E168282C4009511F7 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE56F168282C4009511F7 /* AFJSONRequestOperation.m */; };
+		59BFE57F168282C4009511F7 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE571168282C4009511F7 /* AFNetworkActivityIndicatorManager.m */; };
+		59BFE580168282C4009511F7 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE574168282C4009511F7 /* AFPropertyListRequestOperation.m */; };
+		59BFE581168282C4009511F7 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE576168282C4009511F7 /* AFURLConnectionOperation.m */; };
+		59BFE582168282C4009511F7 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE578168282C4009511F7 /* AFXMLRequestOperation.m */; };
+		59BFE583168282C4009511F7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFE57A168282C4009511F7 /* UIImageView+AFNetworking.m */; };
+		59E79D631683E65A00960A62 /* ZNFavoritesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E79D621683E65A00960A62 /* ZNFavoritesListViewController.m */; };
+		59FD38E1168283B5000997FC /* StatusList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59FD38E0168283B5000997FC /* StatusList.plist */; };
+		59FD38E3168284E3000997FC /* PremiosList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59FD38E2168284E3000997FC /* PremiosList.plist */; };
+		59FD38E616828B34000997FC /* ZNResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FD38E516828B34000997FC /* ZNResultsViewController.m */; };
+		59FD38E91682A2E5000997FC /* ZNSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FD38E81682A2E5000997FC /* ZNSearchResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5901F0261683DDC900C38B73 /* Numeros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Numeros.h; sourceTree = "<group>"; };
+		5901F0271683DDC900C38B73 /* Numeros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Numeros.m; sourceTree = "<group>"; };
 		59BFE51C16827C58009511F7 /* El Gordo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "El Gordo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BFE52016827C58009511F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59BFE52216827C58009511F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,18 +71,42 @@
 		59BFE53616827C58009511F7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		59BFE53816827C58009511F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		59BFE53B16827C58009511F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		59BFE53E16827C58009511F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		59BFE54116827C58009511F7 /* El_Gordo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = El_Gordo.xcdatamodel; sourceTree = "<group>"; };
 		59BFE54316827C58009511F7 /* ZNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZNMainViewController.h; sourceTree = "<group>"; };
 		59BFE54416827C58009511F7 /* ZNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNMainViewController.m; sourceTree = "<group>"; };
-		59BFE54616827C58009511F7 /* ZNFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZNFlipsideViewController.h; sourceTree = "<group>"; };
-		59BFE54716827C58009511F7 /* ZNFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNFlipsideViewController.m; sourceTree = "<group>"; };
 		59BFE54E16827C58009511F7 /* El GordoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "El GordoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BFE54F16827C58009511F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		59BFE55816827C58009511F7 /* El GordoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "El GordoTests-Info.plist"; sourceTree = "<group>"; };
 		59BFE55A16827C58009511F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59BFE55C16827C58009511F7 /* El_GordoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = El_GordoTests.h; sourceTree = "<group>"; };
 		59BFE55D16827C58009511F7 /* El_GordoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = El_GordoTests.m; sourceTree = "<group>"; };
+		59BFE568168282C4009511F7 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		59BFE569168282C4009511F7 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		59BFE56A168282C4009511F7 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		59BFE56B168282C4009511F7 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		59BFE56C168282C4009511F7 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		59BFE56D168282C4009511F7 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		59BFE56E168282C4009511F7 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		59BFE56F168282C4009511F7 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		59BFE570168282C4009511F7 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		59BFE571168282C4009511F7 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		59BFE572168282C4009511F7 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		59BFE573168282C4009511F7 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		59BFE574168282C4009511F7 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		59BFE575168282C4009511F7 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		59BFE576168282C4009511F7 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		59BFE577168282C4009511F7 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		59BFE578168282C4009511F7 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		59BFE579168282C4009511F7 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		59BFE57A168282C4009511F7 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		59E79D611683E65A00960A62 /* ZNFavoritesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNFavoritesListViewController.h; sourceTree = "<group>"; };
+		59E79D621683E65A00960A62 /* ZNFavoritesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNFavoritesListViewController.m; sourceTree = "<group>"; };
+		59FD38E0168283B5000997FC /* StatusList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StatusList.plist; sourceTree = "<group>"; };
+		59FD38E2168284E3000997FC /* PremiosList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PremiosList.plist; sourceTree = "<group>"; };
+		59FD38E416828B34000997FC /* ZNResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNResultsViewController.h; sourceTree = "<group>"; };
+		59FD38E516828B34000997FC /* ZNResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNResultsViewController.m; sourceTree = "<group>"; };
+		59FD38E71682A2E5000997FC /* ZNSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNSearchResultViewController.h; sourceTree = "<group>"; };
+		59FD38E81682A2E5000997FC /* ZNSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNSearchResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,15 +169,21 @@
 		59BFE52816827C58009511F7 /* El Gordo */ = {
 			isa = PBXGroup;
 			children = (
+				59BFE567168282C4009511F7 /* AFNetworking */,
 				59BFE53116827C58009511F7 /* ZNAppDelegate.h */,
 				59BFE53216827C58009511F7 /* ZNAppDelegate.m */,
 				59BFE53A16827C58009511F7 /* MainStoryboard_iPhone.storyboard */,
-				59BFE53D16827C58009511F7 /* MainStoryboard_iPad.storyboard */,
 				59BFE54316827C58009511F7 /* ZNMainViewController.h */,
 				59BFE54416827C58009511F7 /* ZNMainViewController.m */,
-				59BFE54616827C58009511F7 /* ZNFlipsideViewController.h */,
-				59BFE54716827C58009511F7 /* ZNFlipsideViewController.m */,
+				59FD38E416828B34000997FC /* ZNResultsViewController.h */,
+				59FD38E516828B34000997FC /* ZNResultsViewController.m */,
+				59FD38E71682A2E5000997FC /* ZNSearchResultViewController.h */,
+				59FD38E81682A2E5000997FC /* ZNSearchResultViewController.m */,
+				59E79D611683E65A00960A62 /* ZNFavoritesListViewController.h */,
+				59E79D621683E65A00960A62 /* ZNFavoritesListViewController.m */,
 				59BFE54016827C58009511F7 /* El_Gordo.xcdatamodeld */,
+				5901F0261683DDC900C38B73 /* Numeros.h */,
+				5901F0271683DDC900C38B73 /* Numeros.m */,
 				59BFE52916827C58009511F7 /* Supporting Files */,
 			);
 			path = "El Gordo";
@@ -154,6 +199,8 @@
 				59BFE53416827C58009511F7 /* Default.png */,
 				59BFE53616827C58009511F7 /* Default@2x.png */,
 				59BFE53816827C58009511F7 /* Default-568h@2x.png */,
+				59FD38E0168283B5000997FC /* StatusList.plist */,
+				59FD38E2168284E3000997FC /* PremiosList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,6 +222,32 @@
 				59BFE55916827C58009511F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59BFE567168282C4009511F7 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				59BFE568168282C4009511F7 /* AFHTTPClient.h */,
+				59BFE569168282C4009511F7 /* AFHTTPClient.m */,
+				59BFE56A168282C4009511F7 /* AFHTTPRequestOperation.h */,
+				59BFE56B168282C4009511F7 /* AFHTTPRequestOperation.m */,
+				59BFE56C168282C4009511F7 /* AFImageRequestOperation.h */,
+				59BFE56D168282C4009511F7 /* AFImageRequestOperation.m */,
+				59BFE56E168282C4009511F7 /* AFJSONRequestOperation.h */,
+				59BFE56F168282C4009511F7 /* AFJSONRequestOperation.m */,
+				59BFE570168282C4009511F7 /* AFNetworkActivityIndicatorManager.h */,
+				59BFE571168282C4009511F7 /* AFNetworkActivityIndicatorManager.m */,
+				59BFE572168282C4009511F7 /* AFNetworking.h */,
+				59BFE573168282C4009511F7 /* AFPropertyListRequestOperation.h */,
+				59BFE574168282C4009511F7 /* AFPropertyListRequestOperation.m */,
+				59BFE575168282C4009511F7 /* AFURLConnectionOperation.h */,
+				59BFE576168282C4009511F7 /* AFURLConnectionOperation.m */,
+				59BFE577168282C4009511F7 /* AFXMLRequestOperation.h */,
+				59BFE578168282C4009511F7 /* AFXMLRequestOperation.m */,
+				59BFE579168282C4009511F7 /* UIImageView+AFNetworking.h */,
+				59BFE57A168282C4009511F7 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +327,8 @@
 				59BFE53716827C58009511F7 /* Default@2x.png in Resources */,
 				59BFE53916827C58009511F7 /* Default-568h@2x.png in Resources */,
 				59BFE53C16827C58009511F7 /* MainStoryboard_iPhone.storyboard in Resources */,
-				59BFE53F16827C58009511F7 /* MainStoryboard_iPad.storyboard in Resources */,
+				59FD38E1168283B5000997FC /* StatusList.plist in Resources */,
+				59FD38E3168284E3000997FC /* PremiosList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +367,19 @@
 				59BFE53316827C58009511F7 /* ZNAppDelegate.m in Sources */,
 				59BFE54216827C58009511F7 /* El_Gordo.xcdatamodeld in Sources */,
 				59BFE54516827C58009511F7 /* ZNMainViewController.m in Sources */,
-				59BFE54816827C58009511F7 /* ZNFlipsideViewController.m in Sources */,
+				59BFE57B168282C4009511F7 /* AFHTTPClient.m in Sources */,
+				59BFE57C168282C4009511F7 /* AFHTTPRequestOperation.m in Sources */,
+				59BFE57D168282C4009511F7 /* AFImageRequestOperation.m in Sources */,
+				59BFE57E168282C4009511F7 /* AFJSONRequestOperation.m in Sources */,
+				59BFE57F168282C4009511F7 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				59BFE580168282C4009511F7 /* AFPropertyListRequestOperation.m in Sources */,
+				59BFE581168282C4009511F7 /* AFURLConnectionOperation.m in Sources */,
+				59BFE582168282C4009511F7 /* AFXMLRequestOperation.m in Sources */,
+				59BFE583168282C4009511F7 /* UIImageView+AFNetworking.m in Sources */,
+				59FD38E616828B34000997FC /* ZNResultsViewController.m in Sources */,
+				59FD38E91682A2E5000997FC /* ZNSearchResultViewController.m in Sources */,
+				5901F0281683DDC900C38B73 /* Numeros.m in Sources */,
+				59E79D631683E65A00960A62 /* ZNFavoritesListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,14 +416,6 @@
 				59BFE53B16827C58009511F7 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		59BFE53D16827C58009511F7 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59BFE53E16827C58009511F7 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		59BFE55916827C58009511F7 /* InfoPlist.strings */ = {
@@ -409,7 +487,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "El Gordo/El Gordo-Prefix.pch";
 				INFOPLIST_FILE = "El Gordo/El Gordo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -420,7 +500,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "El Gordo/El Gordo-Prefix.pch";
 				INFOPLIST_FILE = "El Gordo/El Gordo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -478,6 +560,7 @@
 				59BFE56316827C58009511F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59BFE56416827C58009511F7 /* Build configuration list for PBXNativeTarget "El GordoTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +569,7 @@
 				59BFE56616827C58009511F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
